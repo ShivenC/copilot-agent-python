@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+jira
+requests
+pydantic
+streamlit
+plotly
+pandas
