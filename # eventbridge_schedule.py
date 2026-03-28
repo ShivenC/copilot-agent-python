@@ -21,7 +21,7 @@ rule_arn = response['RuleArn']
 # Example: sending to an EC2 endpoint via EventBridge target
 target = {
     'Id': 'EC2Target',
-    'Arn': 'arn:aws:events:us-east-1:123456789012:rule/SOC_Ticket_Generator',  # Replace with your EC2 target or Lambda
+    'Arn': 'arn:aws:events:us-east-1:123456789012:rule/SOC_Ticket_Generator',   
     'Input': '{"action":"generate_ticket"}'
 }
 
