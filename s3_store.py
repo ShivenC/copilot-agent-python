@@ -3,6 +3,7 @@ import boto3
 import json
 from datetime import datetime
 
+
 s3 = boto3.client('s3')
 bucket_name = "soc-ticket-logs-bucket"
 
