@@ -3,6 +3,7 @@ import openai
 import json
 from mcp_tools import get_ticket_details
 
+
 openai.api_key = "YOUR_OPENAI_API_KEY"
 
 def summarize_ticket(ticket_id):
