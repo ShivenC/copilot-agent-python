@@ -6,6 +6,7 @@ import uvicorn
 
 app = FastAPI(title="MCP Server")
 
+
 class Ticket(BaseModel):
     key: str
     summary: str
