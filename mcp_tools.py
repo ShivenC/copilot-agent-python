@@ -11,6 +11,7 @@ ticket_store = []
 def get_all_tickets():
     return ticket_store
 
+
 @mcp.tool()
 def find_repeated_ips():
     # logic to detect repeated src_ip values
