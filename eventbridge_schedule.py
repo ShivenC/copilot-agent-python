@@ -2,6 +2,7 @@
 import boto3
 from datetime import datetime, timedelta
 
+
 # Create EventBridge client
 eventbridge = boto3.client('events')
 
